@@ -1,6 +1,6 @@
 {
   "name": "sfdx-l10n-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Shun Kosaka",
   "bugs": "https://github.com/shunkosa/sfdx-l10n-plugin/issues",
   "dependencies": {
