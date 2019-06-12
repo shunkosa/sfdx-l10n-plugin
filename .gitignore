@@ -5,6 +5,7 @@ npm-
 .sfdx/
 .vscode/
 lib/
+!src/lib
 tmp/
 package-lock.json
 
