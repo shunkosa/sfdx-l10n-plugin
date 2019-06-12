@@ -7,7 +7,7 @@ Messages.importMessagesDirectory(__dirname);
 
 export default class Get extends SfdxCommand {
 
-  public static description = 'Command to set org language/default locale';
+  public static description = 'Command to get org language/default locale';
 
   public static examples = [
   `$ sfdx l10n:org:get

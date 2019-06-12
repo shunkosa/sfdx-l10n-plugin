@@ -7,7 +7,7 @@ Messages.importMessagesDirectory(__dirname);
 
 export default class Get extends SfdxCommand {
 
-  public static description = 'Command to set user language/locale';
+  public static description = 'Command to get user language/locale';
 
   public static examples = [
   `$ sfdx l10n:user:get
@@ -19,7 +19,7 @@ export default class Get extends SfdxCommand {
   ];
 
   protected static flagsConfig = {
-    username: flags.string({description: 'target username in the org; use this option if you want to change user info other than specified in the --targetusername option.'})
+    username: flags.string({description: 'target username in the org; use this option if you want to get user info other than specified in the --targetusername option.'})
   };
 
   protected static requiresUsername = true;
