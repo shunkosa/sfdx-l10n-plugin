@@ -1,5 +1,12 @@
 # sfdx-l10n-plugin
-A plugin for Salesforce DX CLI to set language/locale of user/org.
+
+[![Version](https://img.shields.io/npm/v/sfdx-l10n-plugin.svg)](https://npmjs.org/package/sfdx-l10n-plugin)
+[![Downloads/week](https://img.shields.io/npm/dw/sfdx-l10n-plugin.svg)](https://npmjs.org/package/sfdx-l10n-plugin)
+[![License](https://img.shields.io/npm/l/sfdx-l10n-plugin.svg)](https://github.com/shunkosa/sfdx-l10n-plugin/blob/master/package.json)
+
+A Salesforce CLI plugin to retrieve and set language/locale of user/org.
+
+![](img/screenshot.gif)
 
 ## Setup
 ### Install as plugin
